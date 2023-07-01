@@ -70,13 +70,14 @@ body, ul{
   margin-left: 10px;
   margin-right: 10px;
   box-shadow: 6px 6px 8px #0000007a;
-  height: auto;
+  height: fixed;
   transition: 0.3s;
-  place-items: normal legacy;
+  place-items: fixed;
   margin-block: 10px;
+  height: 100%;
 }
 #carouselExampleInterval .carrousel-inner img {
-  max-height: 550px;
+  height: 50%;
   width: 100%;
 }
 @media (max-width: 600px) {
