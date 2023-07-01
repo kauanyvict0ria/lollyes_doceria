@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600&family=Oswald:wght@600&display=swap);
+
+body, ul{
+    margin: 0px;
+    padding: 0px
+}
+#header #menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 1.80rem;
+    transition: 0.4s;
+    margin-left: 1px;
+}
+#header #menu a:hover{
+   color: rgb(255, 255, 255);
+   font-size: 2.0rem;
+   transition: 0.3s;
+   text-shadow: 6px 6px 8px #000000;
+}
+.link menu a:hover {
+   background: rgba(0, 0, 0, 0, 0.05);
+}
+#logo img:hover {
+   box-shadow: 4px 4px 6px #111111dc;
+   transition: 0.3s;
+}
+#logo img {
+   float: right;
+   height: 80px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+}
+#header{
+    width: 100%;
+    position:relative;
+    z-index: 90;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffc1ab;
+    box-shadow: 6px 6px 8px #ffffffd6;
+    transition: 0.3s;
+ }
+ #menu {
+   display: flex;
+   list-style: none;
+   gap: 1.0rem
+}
+#btn-mobile {
+display: none;
+}
+#hamburger {
+   border-top: 3px solid; /* melhorando o hamburger >> espressura de cada linha */
+   width: 35px; /*melhorando o hamburger >> largura */
+   color: #fff; /* alterando a cor do hamburger */
+}
+#hamburger::after,
+#hamburger::before {
+   content: '';
+   display: block;
+   width: 35px; /* melhorando o hamburger >> largura */
+   height: 2px;
+   background: currentColor;
+   margin-top: 4px;  /* melhorando o hamburger >>espacamento entre o hamburger */
+   transition: 0.4s;
+   position: relative;
+   border-top: 3px solid; /* melhorando o hamburger >>espessura de cada linha */
+}
+#nav.active #hamburger {
+   border-top-color: transparent;
+}
+#nav.active #hamburger::before {
+   transform: rotate(135deg);
+}
+#nav.active #hamburger::after {
+   transform: rotate(-135deg);
+   top: -7px;
+}
