@@ -66,6 +66,7 @@ body, ul {
     border-style: none;
     border: 0px;
     min-height: 300px;
+    padding-top: 25px;
 } 
 .text-center .mb-5 {
     margin-top: 20px;
@@ -86,6 +87,11 @@ body, ul {
     max-width: 250px;
     width: 100%;
 }
+.card-body a {
+    background-color: rgb(102, 32, 32);
+    color: white;
+    font-weight: 400;
+} 
 .mask {
     position: absolute;
     top: 0;
