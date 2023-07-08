@@ -20,7 +20,7 @@ body, ul {
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
-
+      
 }
 #logo a:hover {
     box-shadow: 4px;
