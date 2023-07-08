@@ -179,7 +179,7 @@ body, ul{
    font-size: 15px;
  }
  .section-banner-home .texto-banner a:hover{
-  color: greenyellow;
+  color: #603000;
   text-shadow: 2px 2px 4px #cac5c57a;
   font-size: 18px;
   font-weight: bold;
@@ -201,7 +201,7 @@ body, ul{
  }
  .destaque figcaption{
    font-size: 13px;
-   color: #000;
+   color: #603000;
    text-decoration: none;
    font-weight: bold;
    text-align: center;
@@ -210,7 +210,7 @@ body, ul{
    justify-content: center;
    display: flex;
    text-decoration: none;
-   color: #30dcf4;
+   color: #7e4813;
    font-size: 18px;
    font-weight: bold;
    margin: 30px 0;
