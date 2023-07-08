@@ -40,7 +40,7 @@ body, ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #383737 ;
+  background: #ffc1ab;
 }
 #menu {
   display: flex;
