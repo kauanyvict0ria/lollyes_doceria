@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600&family=Oswald:wght@600&display=swap);
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  #header #menu a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-family: 'Oswald';
+   font-size: 2.0rem;
+   transition: 0.3s;
+   margin-right: 15px;
+}
+#header #menu a:hover {
+   color: rgb(255, 255, 255);
+   font-size: 1.6em;
+   transition: 0.3s;
+   text-shadow: 4px 4px 6px #ffffff;
+}
+#logo img:hover {
+   box-shadow: 4px 4px 6px #ffffff;
+   transition: 0.3s;
+}
+
+#logo img {
+   float: left;
+   height: 100px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+   border-radius: 240px; /* criar bordar circular na imagem */
+  }
+#header {
+   width: 100%;
+   position: relative;
+   z-index: 100;
+   box-sizing: border-box;
+   height: 100px;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #ffc1ab;
+   box-shadow: 6px 6px 8px #ffffff;
+   transition: 0.4s;
+}
+#menu {
+   display: flex;
+   list-style: none;
+   gap: 0.5rem;
+}
+#btn-mobile {
+   display: none;
+}
+#carouselExampleInterval{
+  position: relative;
+  z-index: 10;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 6px 6px 8px #0000007a;
+  height: auto;
+  transition: 0.3s;
+  place-items: normal legacy;
+  margin-block: 10px;
+}
+#carouselExampleInterval .carrousel-inner img {
+  max-height: 550px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 15em;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        padding-left: 5px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #menu li {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: hidden;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 5px solid; /* Melhorando o hamburger >> Espessura de cada linha */
+        width: 35px; /*Melhorando o hamburger >> largura */
+        color: #0a090a;/* Alterando a cor do hamburger  */
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 35px;/*Melhorando o hamburger >> Largura */
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px; /*Melhorando o hamburgem>> Espaçamento entre o hamburger*/
+        transition: 0.4s;
+        position: relative;
+        border-top: 5px solid; /*Melhorando o hamburger >> espessura de cada */
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+}.embed-container {
+   position: relative;
+   padding-bottom: 0%;
+   height: auto;
+   max-width: 100%;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 80px;
+   padding-left: 30px;
+   padding-right: 30px;
+   display: flex;
+}
+.embed-contaier h2 {
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+}
+.embed-contaier p {
+   text-align: center;
+   font-size: 24px;
+}
+.embed-container iframe {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 250px;
+   border-radius: 1rem;
+   box-shadow: gray 0.5rem 0.5rem 0.3rem;
+   transition: tranform .3s;
+   display: flex;
+}
+.embed-container iframe:hover {
+   flex: 1;
+   z-index: 1;
+   transform: scale(1.2);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+}
+.embed-contaier .col-lg-4 {
+   margin-top: 20px;
+}
