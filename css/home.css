@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 /*aula 01 - 01/04/2023 */
 
 body, ul{
@@ -6,16 +6,16 @@ body, ul{
     padding: 0px;
   }
   #header #menu a {
-   color: #ffc1ab;
+   color: #000000;
    text-decoration: none;
-   font-family: 'Righteous';
+   font-family: 'Gilda Display', serif;
    text-transform: uppercase;
    font-size: 1.25em;
    transition: 0.3s;
    margin-top: 0px;
 }
 #header #menu a:hover {
-   color: floralwhite;
+   color: rgb(170, 137 ,53 );
    font-size: 1.6em;
    transition: 0.3s;
    text-shadow: 4px 4px 6px #0000007a;
@@ -63,7 +63,7 @@ body, ul{
 }
 */
 
-#carouselExampleInterval{
+/* #carouselExampleInterval{
   position: relative;
   z-index: 10;
   padding-top: 5px;
@@ -78,7 +78,7 @@ body, ul{
 #carouselExampleInterval .carrousel-inner img {
   max-height: 550px;
   width: 100%;
-}
+} */
 @media (max-width: 600px) {
     #menu {
         display: block;

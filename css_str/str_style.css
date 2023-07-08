@@ -173,3 +173,90 @@ body, ul{
 .embed-contaier .col-lg-4 {
    margin-top: 20px;
 }
+/* Inicio CSS Footer */
+.rodape {
+   padding: 50px 50px 0;
+ }
+ .rodape .container #logo-rodape img {
+   height: 50%;
+   width: 50%;
+   padding-left: 10px;
+   transition: 10px;
+   display: block;
+ }
+ .rodape .container #logo-rodape img:hover {
+   transform: scale(1.5);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+ .rodape .info-contato p {
+   margin: 0px;
+ }
+ .rodape a {
+   text-decoration: none;
+   color: #000;
+   font-size: 13px;
+ }
+ .rodape a:hover {
+   font-weight: bold;
+ }
+ .rodape .redes-sociais {
+   display: inline-block;
+ }
+ .rodape .redes-sociais img {
+   width: 45px;
+   height: 40px;
+   padding-left: 00px;
+   transition: transform .3s;
+   border-radius: 120px;
+   margin-left: 00.5rem;
+ }
+ .rodape .redes-sociais img:hover {
+   transform: scale(1.5);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+ .rodape p.direitos {
+   text-align: center;
+   margin-top: 40px;
+ }
+ /* Fim CSS Footer */
+ /*Estilo CSS Banner */
+ .section-banner-home{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  padding: 50px;
+  background-color: #ffc1ab;
+}
+.section-banner-home img{
+  height: 400px;
+}
+.section-banner-home .texto-banner {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+  font-size: 30px;
+  width: 60%;
+  font-weight: 500px;
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+.section-banner-home .texto-banner p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+.section-banner-home .texto-banner a {
+  color: rgb(245, 243, 243);
+  text-decoration: none;
+  background-color: #000000;
+  padding: 4px 14px;
+  font-size: 15px;
+}
+.section-banner-home .texto-banner a:hover{
+ color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 4px #cac5c57a;
+ font-size: 18px;
+ font-weight: bold;
+}
+/*Fim CSS Banner */
