@@ -13,7 +13,7 @@ body, ul {
    margin-right: 8px;
 }
 #header #menu a:hover {
-    color: goldenrod;
+    color: rgba(218, 165, 32, 0.863);
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
