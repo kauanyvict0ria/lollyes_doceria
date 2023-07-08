@@ -219,3 +219,44 @@ body, ul{
    margin-top: 40px;
  }
  /* Fim CSS Footer */
+ /*Estilo CSS Banner */
+ .section-banner-home{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  padding: 50px;
+  background-color: #ffc1ab;
+}
+.section-banner-home img{
+  height: 400px;
+}
+.section-banner-home .texto-banner {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+  font-size: 30px;
+  width: 60%;
+  font-weight: 500px;
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+.section-banner-home .texto-banner p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+.section-banner-home .texto-banner a {
+  color: rgb(245, 243, 243);
+  text-decoration: none;
+  background-color: #000000;
+  padding: 4px 14px;
+  font-size: 15px;
+}
+.section-banner-home .texto-banner a:hover{
+ color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 4px #cac5c57a;
+ font-size: 18px;
+ font-weight: bold;
+}
+/*Fim CSS Banner */
