@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 /* Aula 01 01/04/2023*/
 
 body, ul{
@@ -5,20 +6,24 @@ body, ul{
     padding: 0px;
   }
   #header #menu a { 
-    color: rgb(67, 142, 228);
+    color: #000000;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gilda Display';
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.3s;
+    font-weight: 500;
+   margin-right: 8px;
   }
   #header #menu a:hover {
+    color: goldenrod;
     font-size: 1.6em;
     transition: 0.3s;
-    text-shadow: 2px 2px 4px #fffefe7a;
+    text-shadow: 2px 2px 4px #0000007a;
   }
+
   #logo img:hover {
-    box-shadow: 4px 4px 6px #ffffff7a;
+    box-shadow: 4px 4px 6px #000000;
     transition: 0.3s;
   
   }
@@ -40,7 +45,7 @@ body, ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #383737 ;
+    background: #ffc1ab;
   }
   #menu {
     display: flex;
@@ -62,7 +67,7 @@ body, ul{
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #e7e7e7;
+        background: #fffafa;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -94,7 +99,7 @@ body, ul{
     #hamburger {
         border-top: 2px solid;/* Melhorando o hamburger >> Espessura de cada linha*/
         width: 35px;/* Melhorando o hamburger >> Largura */
-        color: #3b8af1;/* Alterando a cor do hamburger */
+        color: #0e0f0f;/* Alterando a cor do hamburger */
     }
     #hamburger::after,
     #hamburger::before {
@@ -294,7 +299,7 @@ body, ul{
   }
   .embed-container p {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
   }
   .embed-container iframe {
