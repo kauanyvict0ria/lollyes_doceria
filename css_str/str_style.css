@@ -11,8 +11,9 @@ body, ul{
    font-family: 'Gilda Display', serif;
    text-transform: uppercase;
    font-size: 1.25rem;
+   font-weight: 500;
    transition: 0.3s;
-   margin-right: 15px;
+   margin-right: 8px;
 }
 #header #menu a:hover {
    color: floralwhite;

@@ -3,16 +3,18 @@
 body, ul{
     margin: 0px;
     padding: 0px;
+    background-color: #ffc1ab;
   }
   #header #menu a { 
-    color: rgb(67, 142, 228);
+    color: #000000;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gilda Display', serif;
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.3s;
   }
   #header #menu a:hover {
+    color: rgb(170, 137 ,53 );
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 2px 2px 4px #fffefe7a;
@@ -94,7 +96,7 @@ body, ul{
     #hamburger {
         border-top: 2px solid;/* Melhorando o hamburger >> Espessura de cada linha*/
         width: 35px;/* Melhorando o hamburger >> Largura */
-        color: #3b8af1;/* Alterando a cor do hamburger */
+        color: #000000;/* Alterando a cor do hamburger */
     }
     #hamburger::after,
     #hamburger::before {
@@ -235,13 +237,10 @@ body, ul{
     height: 50%;
     width: 50%;
     padding-left: 10px;
-    transition: transform .3s;
     display: block;
   }
   .rodape .container #logo-rodape img:hover {
-    transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  
   }
   .rodape .info-contato p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
