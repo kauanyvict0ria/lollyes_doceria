@@ -6,7 +6,7 @@ body, ul{
     padding: 0px;
   }
   #header #menu a {
-   color: rgb(0, 0, 0);
+   color: #ffc1ab;
    text-decoration: none;
    font-family: 'Righteous';
    text-transform: uppercase;
@@ -43,8 +43,8 @@ body, ul{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   background: #4db3e2ea;
-   box-shadow: 6px 6px 8px #0000007a;
+   background: #ffc1ab;
+   box-shadow: 6px 6px 8px ;
    transition: 0.3s;
 }
 #menu {
@@ -476,7 +476,7 @@ height: 60px;
     -webkit-filter: brightness(110%);
   }  
 }
-@keyframes .pulse {
+@keyframes pulse {
   0% {
     transform: scale(1);
     filter: brightness(200%);
