@@ -1,25 +1,27 @@
-@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600&family=Oswald:wght@600&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
 
 body, ul{
     margin: 0px;
     padding: 0px;
   }
   #header #menu a {
-   color: rgb(255, 255, 255);
+   color: #000000;
    text-decoration: none;
-   font-family: 'Oswald';
-   font-size: 2.0rem;
+   font-family: 'Gilda Display', serif;
+   text-transform: uppercase;
+   font-size: 1.25rem;
    transition: 0.3s;
    margin-right: 15px;
 }
 #header #menu a:hover {
-   color: rgb(255, 255, 255);
+   color: floralwhite;
    font-size: 1.6em;
    transition: 0.3s;
-   text-shadow: 4px 4px 6px #ffffff;
+   text-shadow: 4px 4px 6px #000000;
 }
 #logo img:hover {
-   box-shadow: 4px 4px 6px #ffffff;
+   box-shadow: 4px 4px 6px #000000;
    transition: 0.3s;
 }
 
@@ -29,7 +31,7 @@ body, ul{
    position: relative;
    top: 0px;
    left: 0px;
-   border-radius: 240px; /* criar bordar circular na imagem */
+   border-radius: 200px; /* criar bordar circular na imagem */
   }
 #header {
    width: 100%;
@@ -42,8 +44,8 @@ body, ul{
    align-items: center;
    justify-content: space-between;
    background: #ffc1ab;
-   box-shadow: 6px 6px 8px #ffffff;
-   transition: 0.4s;
+   box-shadow: 6px 6px 8px #0000007a;
+   transition: 0.3s;
 }
 #menu {
    display: flex;
