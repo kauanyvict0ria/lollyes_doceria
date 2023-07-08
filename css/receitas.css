@@ -476,7 +476,7 @@ height: 60px;
     -webkit-filter: brightness(110%);
   }  
 }
-@keyframes .pulse {
+@keyframes pulse {
   0% {
     transform: scale(1);
     filter: brightness(200%);
@@ -522,4 +522,3 @@ height: 60px;
 
 
 /* Início CSS Card Produtos */
-/*  */
