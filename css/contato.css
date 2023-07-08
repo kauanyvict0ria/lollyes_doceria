@@ -5,7 +5,7 @@ body, ul{
     padding: 0px;
   }
   #header #menu a { 
-    color: #ffc1ab;
+    color: rgb(67, 142, 228);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ body, ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: 	#470a00 ;
+    background: 	#ffc1ab ;
   }
   #menu {
     display: flex;
