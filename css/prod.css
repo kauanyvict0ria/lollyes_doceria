@@ -1,0 +1,91 @@
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+#header #menu a {
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-family:'Gilda Display';
+   text-transform: uppercase;
+   font-size: 1.25em;
+   transition: 0.3s;
+   font-weight: 500;
+   margin-right: 8px;
+}
+#header #menu a:hover {
+    color: goldenrod;
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px #0000007a;
+
+}
+#logo a:hover {
+    box-shadow: 4px;
+    transition: 0.3s;
+}
+#logo img:hover {
+    box-shadow: 4px 4px 6px #000000;
+    transition: 0.3s;
+}
+#logo img{
+    float: left;
+    height: 55px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 200px; /* Criar bordar circular na imagem*/
+}
+#header {
+    width: 100%;
+    position: relative;
+    z-index: 90;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffc1ab;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+#btn-mobile {
+    display: none;
+}
+/* início CSS Card Produtos */
+.col-lg-4 .card {
+    border-style: none;
+    border: 0px;
+    min-height: 300px;
+} 
+.text-center .mb-5 {
+    margin-top: 20px;
+}
+.card img {
+    max-height: 250px;
+    max-width: 250px;
+    width: 100%;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.overlay .mask {
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.overlay mask:hover {
+    opacity: 1;
+}
+/* Fim CSS Card Produtos */
+/* Início Card Produtos */
