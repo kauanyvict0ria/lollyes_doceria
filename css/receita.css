@@ -16,7 +16,7 @@ body, ul{
    margin-right: 8px;
   }
   #header #menu a:hover {
-    color: goldenrod;
+    color: rgb(170, 137, 53);
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 2px 2px 4px #0000007a;
@@ -299,8 +299,9 @@ body, ul{
   }
   .embed-container p {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    color: #ffc1ab;
   }
   .embed-container iframe {
     position: relative;
