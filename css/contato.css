@@ -8,7 +8,7 @@ body, ul{
   #header #menu a { 
     color: #000000;
     text-decoration: none;
-    font-family: 'Gilda Display', serif;
+    font-family:  'Gilda Display', serif;
     text-transform: uppercase;
     font-size: 1.25em;
     transition: 0.3s;
