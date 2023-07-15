@@ -30,7 +30,7 @@ body, ul{
   }
   #logo img{
     float: left;
-    height: 75px;
+    height: 100px;
     position: relative;
     top: 0px;
     left: 0px;
@@ -328,7 +328,15 @@ body, ul{
     text-align: center;
     font-size: 20px;
     color: #5a4b4b;
- }
+  }
+  .section-texto-banner a {
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+    background-color: #000000;
+    padding: 4px 14px;
+    font-size: 15px;
+  }
+
   /* Fim CSS Streaming */
   
   /* Inicio CSS Contato */
@@ -479,7 +487,20 @@ body, ul{
   .text-center .mb-5 {
     margin-top: 20px;
   }
-  
+  .text-center .row a {
+    text-decoration: none;
+    background-color: #724c3e;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+  }
   .card img {
     max-height: 300px;
     width: 100%;
